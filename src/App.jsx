@@ -2272,13 +2272,14 @@ export default function ThoughtsIntroPage() {
           >
             <div className="space-y-2 text-sm text-slate-200 md:max-w-xl">
               <h3 className="text-base md:text-lg font-semibold text-emerald-300">
-                Următorul pas: jurnalul gândurilor
+                Următorul pas: Gândurile care determină intensitatea emoțiilor
               </h3>
               <p>
-                În aplicația 2 vei nota situații reale, gândurile automate
-                asociate și emoțiile rezultate. Acolo vei exersa exact ceea ce
-                ai citit aici: să recunoști gândirea „totul sau nimic” și să o
-                transformi în gânduri mai nuanțate și mai sănătoase.
+                În aplicația 2 vei învață să faci diferența dintre gânduri
+                raționale și gânduri iraționale și emoțiile rezultate. Acolo vei
+                exersa exact ceea ce ai citit aici: să recunoști gândirea „totul
+                sau nimic” și să o transformi în gânduri mai nuanțate și mai
+                sănătoase.
               </p>
               <p className="text-xs text-slate-400">
                 Recomandare: începe cu 1–3 situații din ultimele zile în care ai
@@ -2288,6 +2289,40 @@ export default function ThoughtsIntroPage() {
 
             <a
               href="https://ganduri-emotii-v1.vercel.app/" // schimbă ruta după cum vei numi aplicația 2
+              className="inline-flex items-center rounded-full bg-gradient-to-r from-cyan-500 to-emerald-500 px-5 py-2 text-sm font-semibold text-slate-950 shadow-lg shadow-cyan-500/40 hover:brightness-110"
+            >
+              Gândurile care determină intensitatea emoțiilor
+            </a>
+          </motion.div>
+        </section>
+
+        {/* CTA spre aplicație / jurnal de gânduri */}
+        <section className="pb-10">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.4 }}
+            variants={fadeUp}
+            custom={0}
+            className="rounded-3xl border border-slate-800 bg-slate-950/90 p-4 md:p-5 flex flex-col md:flex-row md:items-center md:justify-between gap-4"
+          >
+            <div className="space-y-2 text-sm text-slate-200 md:max-w-xl">
+              <h3 className="text-base md:text-lg font-semibold text-emerald-300">
+                Următorul pas: Jurnalul Gândurilor
+              </h3>
+              <p>
+                În aplicația 3 vei nota situațiile reale, gândurile automate
+                asociate și emoțiile rezultate. Acolo vei exersa identificarea
+                propriilor gânduri si emoții. Aceste demers este esențial pentru
+                psihoterapia cognitiv-comportamentală.
+              </p>
+              <p className="text-xs text-slate-400">
+                Recomandare: începe cu 1–3 situații din ultimele zile în care ai
+                simțit rușine, furie, teamă sau descurajare puternică.
+              </p>
+            </div>
+            <a
+              href="https://full-at-identificare.vercel.app/" // schimbă ruta după cum vei numi aplicația 2
               className="inline-flex items-center rounded-full bg-gradient-to-r from-cyan-500 to-emerald-500 px-5 py-2 text-sm font-semibold text-slate-950 shadow-lg shadow-cyan-500/40 hover:brightness-110"
             >
               Deschide jurnalul gândurilor
