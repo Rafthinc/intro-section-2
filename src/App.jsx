@@ -214,9 +214,9 @@ export default function ThoughtsIntroPage() {
               custom={0}
               className="space-y-3"
             >
-              <h2 className="text-lg md:text-xl font-semibold text-slate-50">
-                Eroarea de gândire #1 · Gândirea „totul sau nimic”
-              </h2>
+              <div className="inline-flex items-center px-4 py-1.5 rounded-full text-xs md:text-sm font-medium bg-emerald-400/10 text-emerald-300">
+                Eroarea 1 · Gândirea „totul sau nimic”
+              </div>
               <p className="text-sm text-slate-300">
                 Gândirea „totul sau nimic” (all-or-nothing, alb-negru,
                 dihotomică) înseamnă să vezi lumea în doar două categorii:
